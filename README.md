@@ -1,13 +1,10 @@
 # CS3SY26_ProjectProposal by Aline Teresa Mendoza from CS Unit of PSHS
 
-
-## Project Proposal Template:
-cvbbbc
 ### Project Title or Name of the Application	: HomeSense: Python Smart Home Simulator
 ### Section			   	      : 9 - Beryllium
 ### Group Members			    : SANTOS, Marquiz, SUDEEP, Shiloh, TAYAO, Josemaria
 ### Date (Proposal Date)  : Nov 5, 2026
-fdfhdfhfshsdhfhhtrthdfh
+
 ### Project Description:
 **HomeSense** is a Python-based smart home automation simulator that models how modern Internet of Things (IoT) household devices interact with user commands and environmental changes. Modern households increasingly rely on connected devices to save electricity and improve home security, yet beginners in programming and electronics often struggle to visualize how automated sensor logic works behind the scenes without expensive hardware.
 
