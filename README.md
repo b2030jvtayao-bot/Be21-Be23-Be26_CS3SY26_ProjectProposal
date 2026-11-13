@@ -3,7 +3,7 @@
 ### Project Title or Name of the Application	: BudgeDING SimpleBudget: Financial Planner
 ### Section			   	      : 9 - Beryllium
 ### Group Members			    : SANTOS, Marquiz, SUDEEP, Shiloh, TAYAO, Josemaria
-### Date (Proposal Date)  : Nov 5, 2026
+### Date (Proposal Date)  : Nov 13, 2026
 
 ## Project Description
 **BudgeDING SimpleBudget: Financial Planner** is a streamlined Python-based personal finance application designed to give users direct, stress-free control over their core budget Many students, young adults, and first-time earners struggle to manage their money because traditional spreadsheets and budgeting tools are either overly complicated or too rigid for changing expenses. SimpleBudget solves this problem by providing an intuitive, guided system that divides a user's income into clear, percentage-based financial categories.
