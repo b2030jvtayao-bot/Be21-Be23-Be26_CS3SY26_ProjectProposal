@@ -13,7 +13,7 @@ So that you can use the app, you first need to create an account, log in, then e
 ---
 
 ## Target Users
-* **Primary Users:** High school and college students managing allowances, part-time workers, and beginner earners looking for an easy-to-use personal finance tool.
+* **Primary Users:** High school and college students that need to manage allowances, part-time workers, and beginner earners that want an easy-to-use personal finance tool.
 * **User Needs:** These users need a simple, structured way to divide their limited income between daily necessities, savings, and personal spending without needing prior accounting knowledge or complicated financial software.
 
 ---
