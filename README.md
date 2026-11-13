@@ -6,9 +6,9 @@
 ### Date (Proposal Date)  : Nov 13, 2026
 
 ## Project Description
-**BudgeDING SimpleBudget: Financial Planner** is a streamlined Python-based personal finance application designed to give users direct, stress-free control over their core budget Many students, young adults, and first-time earners struggle to manage their money because traditional spreadsheets and budgeting tools are either overly complicated or too rigid for changing expenses. SimpleBudget solves this problem by providing an intuitive, guided system that divides a user's income into clear, percentage-based financial categories.
+**BudgeDING SimpleBudget: Financial Planner** is a simple Python app that helps people manage their money without the headache. There are lots of students and young earners that have a hard time budgeting because standard spreadsheets and finance apps can be either too confusing or too strict. SimpleBudget fixes this by walking users through an easy, percentage-based budgeting setup.
 
-The application implements a secure user registration and login flow, prompts users to input their primary salary or income, and allows them to customize allocation percentages across five core categories: **Basics**, **Guilt-Free Spending**, **Long-Term Goals**, **Investing/Debt**, and **Short-Term Goals**. To keep budgets realistic and balanced, the system validates each category within practical ranges (for example, keeping **Basics** between `0.50` and `0.60`) and ensures that all category percentages sum up to exactly `1.0` (100%). Once validated, the program automatically calculates and displays the exact monetary breakdown for each category, enabling clear financial planning without unnecessary complexity.
+So that you can use the app, you first need to create an account, log in, then enter your allowance or salary. From there, you can split your money across five everyday categories: **Basics**, **Guilt-Free Spending**, **Long-Term Goals**, **Investing/Debt**, and **Short-Term Goals**. You can customize how much goes into each category, while the app makes sure your numbers stay realistic (like keeping **Basics** between 50% and 60%) and add up to 100%. Once your percentages are set, SimpleBudget automatically calculates and shows you the exact amount of money you should put toward each category.
 
 ---
 
