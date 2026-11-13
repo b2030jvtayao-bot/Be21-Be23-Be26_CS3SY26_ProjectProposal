@@ -1,4 +1,4 @@
-# CS3SY26_ProjectProposal by Aline Teresa Mendoza from CS Unit of PSHS
+# CS3SY26_ProjectProposal by Be_21 Santos, Be_23 Sudeep, and Be_26 Tayao from B2030 9 - Beryllium of PSHS MC
 
 ### Project Title or Name of the Application	: BudgeDING SimpleBudget: Financial Planner
 ### Section			   	      : 9 - Beryllium
@@ -14,7 +14,7 @@ So that you can use the app, you first need to create an account, log in, then e
 
 ## Target Users
 * **Primary Users:** High school and college students that need to manage allowances, part-time workers, and beginner earners that want an easy-to-use personal finance tool.
-* **User Needs:** These users need a simple, structured way to divide their limited income between daily necessities, savings, and personal spending without needing prior accounting knowledge or complicated financial software.
+* **User Needs:** These users need a simple, structured way to divide their limited income between daily necessities, savings, and personal spending without needing much accounting knowledge or complicated financial software.
 
 ---
 
@@ -52,7 +52,7 @@ So that you can use the app, you first need to create an account, log in, then e
 * **Child Classes (`Basics`, `GuiltFree`, `LongTermGoals`, `InvestingDebt`, `ShortTermGoals`):** Each subclass inherits from `BudgetCategory` and overrides `validateRange()` to enforce its own realistic percentage limits (e.g., `0.50–0.60` for `Basics`), demonstrating **inheritance** and **polymorphism**.
 
 ### Class Interactions
-When `SimpleBudgetApplication.run()` starts, it interacts with `UserManager` to register or authenticate a `User` object. Once logged in, `SimpleBudgetApplication` passes control to `BudgetPlanner`, which stores the user's `salary` and manages a list of the five `BudgetCategory` child objects. When the user customizes their percentages, `BudgetPlanner` calls `validateRange()` on each subclass polymorphically before running `calculateAmount(salary)` to display the final financial breakdown.
+When `SimpleBudgetApplication.run()` starts, it will interact with `UserManager` so that it can register or authenticate a `User` object. When the user has logged in, `SimpleBudgetApplication` passes control to `BudgetPlanner`, which stores the user's `salary` and manages a list of the five `BudgetCategory` child objects. When the user will customize their percentages, `BudgetPlanner` calls `validateRange()` on each subclass individually and polymorphically, before running `calculateAmount(salary)` to display the final financial breakdown.
 
 ## Class Diagram ##
 
@@ -132,6 +132,6 @@ classDiagram
 To encourage students, young people, and beginner earners to develop and practice consistently healthy financial habits by giving them an accessible, easy-to-use personal budgeting tool that removes the confusion and complexity of traditional financial planning.
 
 ### Specific Objectives
-* **Objective 1:** Design and implement a clean Object-Oriented Programming (OOP) class structure—including `UserManager`, `User`, `BudgetPlanner`, and the `BudgetCategory` hierarchy—to handle secure user registration, login authentication, and income storage.
-* **Objective 2:** Build a user-friendly console application (or simple GUI) that prompts users for their salary and allows them to customize allocation percentages across the five core categories (`Basics`, `GuiltFree`, `LongTermGoals`, `InvestingDebt`, and `ShortTermGoals`).
-* **Objective 3:** Implement validation logic that enforces realistic category bounds (such as keeping `Basics` within `0.50–0.60`) and ensures all percentages sum to `1.0`, then accurately calculates and displays the resulting monetary breakdown for each category.
+* **Objective 1:** Have and manage safe user registration, login authentication, and income storage, by making a clear Object-Oriented Programming (OOP) class structure that includes UserManager, User, BudgetPlanner, and the BudgetCategory hierarchy.
+* **Objective 2:** Make a user-friendly console application (or a simple GUI) that asks users for their salary and allows them to customize allocation percentages of the five categories (`Basics`, `GuiltFree`, `LongTermGoals`, `InvestingDebt`, and `ShortTermGoals`).
+* **Objective 3:** Implement validation logic that uses realistic category bounds (such as keeping `Basics` within `0.50–0.60`) and ensures all percentages sum to `1.0`, then accurately calculates and displays the resulting monetary breakdown for each category.
