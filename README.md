@@ -1,4 +1,4 @@
-# CS3SY26_ProjectProposal by Be_21 Santos, Be_23 Sudeep, and Be_26 Tayao from B2030 9 - Beryllium of PSHS MC
+# CS3SY26_ProjectProposal by Be_21 Santos, Be_23 Sudeep, and Be_26 Tayao
 
 ### Project Title or Name of the Application	: BudgeDING SimpleBudget: Financial Planner
 ### Section			   	      : 9 - Beryllium
