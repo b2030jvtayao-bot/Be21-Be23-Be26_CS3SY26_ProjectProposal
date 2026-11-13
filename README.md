@@ -20,6 +20,76 @@
 
 ![Sample Diagram](https://static.visual-paradigm.com/web/images/tutorials/class-diagram-tutorial/01-class-diagram-example.png)
 
+```mermaid
+classDiagram
+    class SimpleBudgetApplication {
+        -UserManager userManager
+        -BudgetPlanner budgetPlanner
+        +run()
+    }
+
+    class UserManager {
+        -List~User~ users
+        +registerUser(user: User)
+        +getUser(username: str) User
+        +authenticate(username: str, password: str) bool
+    }
+
+    class User {
+        -str username
+        -str password
+        +verifyPassword(password: str) bool
+    }
+
+    class BudgetPlanner {
+        -float salary
+        -List~BudgetCategory~ categories
+        +setSalary(amount: float)
+        +validatePercentages() bool
+        +calculateBreakdown()
+    }
+
+    class BudgetCategory {
+        #str name
+        #float percentage
+        #float minPct
+        #float maxPct
+        +setPercentage(pct: float)
+        +calculateAmount(salary: float) float
+        +validateRange() bool
+    }
+
+    class Basics {
+        +validateRange() bool
+    }
+
+    class GuiltFree {
+        +validateRange() bool
+    }
+
+    class LongTermGoals {
+        +validateRange() bool
+    }
+
+    class InvestingDebt {
+        +validateRange() bool
+    }
+
+    class ShortTermGoals {
+        +validateRange() bool
+    }
+
+    SimpleBudgetApplication --> UserManager : manages
+    SimpleBudgetApplication --> BudgetPlanner : manages
+    UserManager o-- User : stores
+    BudgetPlanner o-- BudgetCategory : contains
+    BudgetCategory <|-- Basics : inherits
+    BudgetCategory <|-- GuiltFree : inherits
+    BudgetCategory <|-- LongTermGoals : inherits
+    BudgetCategory <|-- InvestingDebt : inherits
+    BudgetCategory <|-- ShortTermGoals : inherits
+```
+
 ### Goals:
 
 To develop a functional, educational Python simulation that demonstrates how Object-Oriented Programming models real-world smart home automation while promoting awareness of household energy efficiency[cite: 7].
