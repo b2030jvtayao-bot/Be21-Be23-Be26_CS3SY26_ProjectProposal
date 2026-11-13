@@ -1,15 +1,12 @@
 # CS3SY26_ProjectProposal by Aline Teresa Mendoza from CS Unit of PSHS
 
-### Project Title or Name of the Application	: HomeSense: Python Smart Home Simulator
+### Project Title or Name of the Application	: BudgeDING
 ### Section			   	      : 9 - Beryllium
 ### Group Members			    : SANTOS, Marquiz, SUDEEP, Shiloh, TAYAO, Josemaria
 ### Date (Proposal Date)  : Nov 5, 2026
 
 ### Project Description:
-**HomeSense** is a Python-based smart home automation simulator that models how modern Internet of Things (IoT) household devices interact with user commands and environmental changes. Modern households increasingly rely on connected devices to save electricity and improve home security, yet beginners in programming and electronics often struggle to visualize how automated sensor logic works behind the scenes without expensive hardware.
-
-This application addresses that problem by providing an interactive virtual home environment where users can add devices to rooms, adjust simulated environmental conditions (such as room temperature, time of day, or motion detection), and observe how smart appliances automatically respond. Integrating concepts from **Computer Engineering and Physics (energy consumption)**, the system also tracks simulated power usage in kilowatt-hours (kWh) to demonstrate the real-world impact of energy-saving automation.
-
+ - **BudgeDING** is a Python-based lightweight budgeting app designed to allocate your salary towards different categories of expenses.        Users will have to input user name, their own password, their salary, and percentages for each category.
 
 - A brief summary of the project description and the need for it.
 
