@@ -1,12 +1,12 @@
 # CS3SY26_ProjectProposal by Aline Teresa Mendoza from CS Unit of PSHS
 
-### Project Title or Name of the Application	: BudgeDING
+### Project Title or Name of the Application	: BudgeDING SimpleBudget: Financial Planner
 ### Section			   	      : 9 - Beryllium
 ### Group Members			    : SANTOS, Marquiz, SUDEEP, Shiloh, TAYAO, Josemaria
 ### Date (Proposal Date)  : Nov 5, 2026
 
 ## Project Description
-**BudgeDING** is a streamlined Python-based personal finance application designed to give users direct, stress-free control over their core budget Many students, young adults, and first-time earners struggle to manage their money because traditional spreadsheets and budgeting tools are either overly complicated or too rigid for changing expenses. SimpleBudget solves this problem by providing an intuitive, guided system that divides a user's income into clear, percentage-based financial categories.
+**BudgeDING SimpleBudget: Financial Planner** is a streamlined Python-based personal finance application designed to give users direct, stress-free control over their core budget Many students, young adults, and first-time earners struggle to manage their money because traditional spreadsheets and budgeting tools are either overly complicated or too rigid for changing expenses. SimpleBudget solves this problem by providing an intuitive, guided system that divides a user's income into clear, percentage-based financial categories.
 
 The application implements a secure user registration and login flow, prompts users to input their primary salary or income, and allows them to customize allocation percentages across five core categories: **Basics**, **Guilt-Free Spending**, **Long-Term Goals**, **Investing/Debt**, and **Short-Term Goals**. To keep budgets realistic and balanced, the system validates each category within practical ranges (for example, keeping **Basics** between `0.50` and `0.60`) and ensures that all category percentages sum up to exactly `1.0` (100%). Once validated, the program automatically calculates and displays the exact monetary breakdown for each category, enabling clear financial planning without unnecessary complexity.
 
