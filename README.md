@@ -125,10 +125,10 @@ classDiagram
 
 ### Goals:
 
-To develop a functional, educational Python simulation that demonstrates how Object-Oriented Programming models real-world smart home automation while promoting awareness of household energy efficiency[cite: 7].
+### Long-Term Goal
+To empower students, young adults, and beginner earners to build consistent, healthy financial habits through an accessible, easy-to-use personal budgeting tool that removes the confusion and complexity of traditional financial planning[cite: 1, 3, 10].
 
-- Objective 1: Design and implement an inheritance hierarchy with one parent class (SmartDevice) and at least three specialized child classes (SmartLight, SmartThermostat, SmartLock) by the end of the 3rd Quarter[cite: 7].
-- Objective 2: Build an interactive command-line menu (or tkinter GUI) in SmartHomeHub that lets users add devices, trigger sensor events, and view real-time automation logs[cite: 7].
-- Objective n: Implement an accurate energy consumption calculator that reports total kilowatt-hours (kWh) used across simulated time intervals and test the system across at least 5 household scenarios before the 4th Quarter deadline[cite: 7].
-
-[Click here for Rubrics and Sample projects](https://docs.google.com/document/d/1xKd1CqK6DcNWS2_oJPBNtY5n3I3Hqiw8FY3W295Iqfk/edit?usp=sharing)
+### Specific Objectives
+* **Objective 1:** Design and implement a clean Object-Oriented Programming (OOP) class structure—including `UserManager`, `User`, `BudgetPlanner`, and the `BudgetCategory` hierarchy—to handle secure user registration, login authentication, and income storage[cite: 10, 11].
+* **Objective 2:** Build a user-friendly console application (or simple GUI) that prompts users for their salary and allows them to customize allocation percentages across the five core categories (`Basics`, `GuiltFree`, `LongTermGoals`, `InvestingDebt`, and `ShortTermGoals`)[cite: 10, 11].
+* **Objective 3:** Implement validation logic that enforces realistic category bounds (such as keeping `Basics` within `0.50–0.60`) and ensures all percentages sum to `1.0`, then accurately calculates and displays the resulting monetary breakdown for each category[cite: 10, 11].
