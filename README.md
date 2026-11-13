@@ -129,7 +129,7 @@ classDiagram
 ### Goals:
 
 ### Long-Term Goal
-To empower students, young adults, and beginner earners to build consistent, healthy financial habits through an accessible, easy-to-use personal budgeting tool that removes the confusion and complexity of traditional financial planning.
+To encourage students, young people, and beginner earners to develop and practice consistently healthy financial habits by giving them an accessible, easy-to-use personal budgeting tool that removes the confusion and complexity of traditional financial planning.
 
 ### Specific Objectives
 * **Objective 1:** Design and implement a clean Object-Oriented Programming (OOP) class structure—including `UserManager`, `User`, `BudgetPlanner`, and the `BudgetCategory` hierarchy—to handle secure user registration, login authentication, and income storage.
